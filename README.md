@@ -1,9 +1,9 @@
-SparkFun A111 Pulsed Radar Breakout
+SparkFun Pulsed Radar Breakout - A111
 ========================================
 
-[![SparkFun A111 Pulsed Radar Breakout]()](https://www.sparkfun.com/products/)
+[![SparkFun Pulsed Radar Breakout - A111 ]()](https://www.sparkfun.com/products/)
 
-[*SparkFun  A111 Pulsed Radar Breakout ()*]()
+[*SparkFun Pulsed Radar Breakout - A111 ()*]()
 
 Does your project require high-precision, cutting-edge distance measurement? Or maybe speed-, motion-, or gesture-sensing? We’re not talking about simple ultrasonic, or even infrared, sensors here, but 60GHz radar! Well say hello to our tiny, pulsed-radar friend: the Acconeer A111.
 
