@@ -19452,7 +19452,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="XOUT" pad="H10"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-14498" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
