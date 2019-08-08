@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17645,10 +17645,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="F2" x="-1.75" y="-0.25" dx="0.3" dy="0.3" layer="1" roundness="100"/>
 <smd name="E2" x="-1.75" y="0.25" dx="0.3" dy="0.3" layer="1" roundness="100"/>
 <smd name="D2" x="-1.75" y="0.75" dx="0.3" dy="0.3" layer="1" roundness="100"/>
-<wire x1="-2.727" y1="2.877" x2="-2.727" y2="-2.877" width="0.127" layer="21"/>
-<wire x1="2.727" y1="2.877" x2="-2.727" y2="2.877" width="0.127" layer="21"/>
-<wire x1="2.727" y1="-2.877" x2="2.727" y2="2.877" width="0.127" layer="21"/>
-<wire x1="-2.727" y1="-2.877" x2="2.727" y2="-2.877" width="0.127" layer="21"/>
+<wire x1="-2.727" y1="2.877" x2="-2.727" y2="-2.877" width="0.2032" layer="21"/>
+<wire x1="2.727" y1="2.877" x2="-2.727" y2="2.877" width="0.2032" layer="21"/>
+<wire x1="2.727" y1="-2.877" x2="2.727" y2="2.877" width="0.2032" layer="21"/>
+<wire x1="-2.727" y1="-2.877" x2="2.727" y2="-2.877" width="0.2032" layer="21"/>
 <circle x="-2.981" y="3.131" radius="0.1778" width="0" layer="21"/>
 <smd name="C2" x="-1.75" y="1.25" dx="0.3" dy="0.3" layer="1" roundness="100"/>
 <smd name="K3" x="-1.25" y="-2.25" dx="0.3" dy="0.3" layer="1" roundness="100"/>
@@ -17832,6 +17832,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="162.56" y1="134.62" x2="248.92" y2="134.62" width="0.2032" layer="97" style="shortdash"/>
 <text x="167.64" y="127" size="2.54" layer="94" font="vector">Voltage Regulator </text>
 <text x="30.48" y="10.16" size="1.27" layer="97" font="vector">40 pin is backwards compatible with 26 pin header.</text>
+<text x="33.02" y="154.94" size="1.778" layer="97" font="vector">VCC Range 1.7V - 1.89V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>

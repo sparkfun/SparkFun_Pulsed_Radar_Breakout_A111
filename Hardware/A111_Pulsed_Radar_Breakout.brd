@@ -83,10 +83,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
-<layer number="117" name="PM_Ref" color="26" fill="1" visible="no" active="yes"/>
+<layer number="117" name="PM_Ref" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="PF_Ref" color="31" fill="1" visible="no" active="yes"/>
-<layer number="120" name="WFL_Ref" color="25" fill="1" visible="no" active="yes"/>
+<layer number="119" name="PF_Ref" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -3329,10 +3329,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="F2" x="-1.75" y="-0.25" dx="0.3" dy="0.3" layer="1" roundness="100"/>
 <smd name="E2" x="-1.75" y="0.25" dx="0.3" dy="0.3" layer="1" roundness="100"/>
 <smd name="D2" x="-1.75" y="0.75" dx="0.3" dy="0.3" layer="1" roundness="100"/>
-<wire x1="-2.727" y1="2.877" x2="-2.727" y2="-2.877" width="0.127" layer="21"/>
-<wire x1="2.727" y1="2.877" x2="-2.727" y2="2.877" width="0.127" layer="21"/>
-<wire x1="2.727" y1="-2.877" x2="2.727" y2="2.877" width="0.127" layer="21"/>
-<wire x1="-2.727" y1="-2.877" x2="2.727" y2="-2.877" width="0.127" layer="21"/>
+<wire x1="-2.727" y1="2.877" x2="-2.727" y2="-2.877" width="0.2032" layer="21"/>
+<wire x1="2.727" y1="2.877" x2="-2.727" y2="2.877" width="0.2032" layer="21"/>
+<wire x1="2.727" y1="-2.877" x2="2.727" y2="2.877" width="0.2032" layer="21"/>
+<wire x1="-2.727" y1="-2.877" x2="2.727" y2="-2.877" width="0.2032" layer="21"/>
 <circle x="-2.981" y="3.131" radius="0.1778" width="0" layer="21"/>
 <smd name="C2" x="-1.75" y="1.25" dx="0.3" dy="0.3" layer="1" roundness="100"/>
 <smd name="K3" x="-1.25" y="-2.25" dx="0.3" dy="0.3" layer="1" roundness="100"/>
@@ -3898,7 +3898,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="17.76" y1="24.42" x2="17.76" y2="23.729" width="0.1524" layer="1"/>
 <wire x1="17.76" y1="23.729" x2="17.399" y2="23.368" width="0.1524" layer="1"/>
 <via x="17.399" y="23.368" extent="1-16" drill="0.3048"/>
-<wire x1="17.399" y1="23.368" x2="17.399" y2="23.329" width="0.1524" layer="16"/>
 <contactref element="U4" pad="9"/>
 <wire x1="17.399" y1="23.368" x2="15.748" y2="21.717" width="0.1524" layer="16"/>
 <wire x1="15.748" y1="20.1287125" x2="16.1196" y2="19.7571125" width="0.1524" layer="16"/>
