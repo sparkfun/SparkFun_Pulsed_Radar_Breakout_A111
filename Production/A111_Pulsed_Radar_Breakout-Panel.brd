@@ -3489,11 +3489,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="F2" x="-1.75" y="-0.25" dx="0.3" dy="0.3" layer="1" roundness="100"/>
 <smd name="E2" x="-1.75" y="0.25" dx="0.3" dy="0.3" layer="1" roundness="100"/>
 <smd name="D2" x="-1.75" y="0.75" dx="0.3" dy="0.3" layer="1" roundness="100"/>
-<wire x1="-2.727" y1="2.877" x2="-2.727" y2="-2.877" width="0.127" layer="21"/>
-<wire x1="2.727" y1="2.877" x2="-2.727" y2="2.877" width="0.127" layer="21"/>
-<wire x1="2.727" y1="-2.877" x2="2.727" y2="2.877" width="0.127" layer="21"/>
-<wire x1="-2.727" y1="-2.877" x2="2.727" y2="-2.877" width="0.127" layer="21"/>
-<circle x="-2.981" y="3.131" radius="0.1778" width="0" layer="21"/>
+<wire x1="-2.727" y1="2.877" x2="-2.727" y2="-2.877" width="0.2032" layer="21"/>
+<wire x1="2.727" y1="2.877" x2="-2.727" y2="2.877" width="0.2032" layer="21"/>
+<wire x1="2.727" y1="-2.877" x2="2.727" y2="2.877" width="0.2032" layer="21"/>
+<wire x1="-2.727" y1="-2.877" x2="2.727" y2="-2.877" width="0.2032" layer="21"/>
 <smd name="C2" x="-1.75" y="1.25" dx="0.3" dy="0.3" layer="1" roundness="100"/>
 <smd name="K3" x="-1.25" y="-2.25" dx="0.3" dy="0.3" layer="1" roundness="100"/>
 <smd name="K4" x="-0.75" y="-2.25" dx="0.3" dy="0.3" layer="1" roundness="100"/>
@@ -3531,6 +3530,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-5.6347125" y1="-5.6347125" x2="5.6347125" y2="-5.6347125" width="0.1524" layer="49"/>
 <wire x1="5.6347125" y1="-5.6347125" x2="5.6347125" y2="5.6347125" width="0.1524" layer="49"/>
 <text x="0" y="5.7" size="0.6096" layer="49" align="bottom-center">-2.2dB</text>
+<circle x="-3.175" y="3.302" radius="0.254" width="0" layer="21"/>
 </package>
 </packages>
 </library>
@@ -5347,7 +5347,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="17.76" y1="24.42" x2="17.76" y2="23.729" width="0.1524" layer="1"/>
 <wire x1="17.76" y1="23.729" x2="17.399" y2="23.368" width="0.1524" layer="1"/>
 <via x="17.399" y="23.368" extent="1-16" drill="0.3048"/>
-<wire x1="17.399" y1="23.368" x2="17.399" y2="23.329" width="0.1524" layer="16"/>
 <contactref element="U4" pad="9"/>
 <wire x1="17.399" y1="23.368" x2="15.748" y2="21.717" width="0.1524" layer="16"/>
 <wire x1="15.748" y1="20.1287125" x2="16.1196" y2="19.7571125" width="0.1524" layer="16"/>
@@ -5762,7 +5761,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="51.288" y1="24.42" x2="51.288" y2="23.729" width="0.1524" layer="1"/>
 <wire x1="51.288" y1="23.729" x2="50.927" y2="23.368" width="0.1524" layer="1"/>
 <via x="50.927" y="23.368" extent="1-16" drill="0.3048"/>
-<wire x1="50.927" y1="23.368" x2="50.927" y2="23.329" width="0.1524" layer="16"/>
 <contactref element="U6" pad="9"/>
 <wire x1="50.927" y1="23.368" x2="49.276" y2="21.717" width="0.1524" layer="16"/>
 <wire x1="49.276" y1="20.1287125" x2="49.6476" y2="19.7571125" width="0.1524" layer="16"/>
@@ -6177,7 +6175,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="84.816" y1="24.42" x2="84.816" y2="23.729" width="0.1524" layer="1"/>
 <wire x1="84.816" y1="23.729" x2="84.455" y2="23.368" width="0.1524" layer="1"/>
 <via x="84.455" y="23.368" extent="1-16" drill="0.3048"/>
-<wire x1="84.455" y1="23.368" x2="84.455" y2="23.329" width="0.1524" layer="16"/>
 <contactref element="U9" pad="9"/>
 <wire x1="84.455" y1="23.368" x2="82.804" y2="21.717" width="0.1524" layer="16"/>
 <wire x1="82.804" y1="20.1287125" x2="83.1756" y2="19.7571125" width="0.1524" layer="16"/>
@@ -6592,7 +6589,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="17.76" y1="64.298" x2="17.76" y2="63.607" width="0.1524" layer="1"/>
 <wire x1="17.76" y1="63.607" x2="17.399" y2="63.246" width="0.1524" layer="1"/>
 <via x="17.399" y="63.246" extent="1-16" drill="0.3048"/>
-<wire x1="17.399" y1="63.246" x2="17.399" y2="63.207" width="0.1524" layer="16"/>
 <contactref element="U12" pad="9"/>
 <wire x1="17.399" y1="63.246" x2="15.748" y2="61.595" width="0.1524" layer="16"/>
 <wire x1="15.748" y1="60.0067125" x2="16.1196" y2="59.6351125" width="0.1524" layer="16"/>
@@ -7007,7 +7003,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="51.288" y1="64.298" x2="51.288" y2="63.607" width="0.1524" layer="1"/>
 <wire x1="51.288" y1="63.607" x2="50.927" y2="63.246" width="0.1524" layer="1"/>
 <via x="50.927" y="63.246" extent="1-16" drill="0.3048"/>
-<wire x1="50.927" y1="63.246" x2="50.927" y2="63.207" width="0.1524" layer="16"/>
 <contactref element="U15" pad="9"/>
 <wire x1="50.927" y1="63.246" x2="49.276" y2="61.595" width="0.1524" layer="16"/>
 <wire x1="49.276" y1="60.0067125" x2="49.6476" y2="59.6351125" width="0.1524" layer="16"/>
@@ -7422,7 +7417,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="84.816" y1="64.298" x2="84.816" y2="63.607" width="0.1524" layer="1"/>
 <wire x1="84.816" y1="63.607" x2="84.455" y2="63.246" width="0.1524" layer="1"/>
 <via x="84.455" y="63.246" extent="1-16" drill="0.3048"/>
-<wire x1="84.455" y1="63.246" x2="84.455" y2="63.207" width="0.1524" layer="16"/>
 <contactref element="U18" pad="9"/>
 <wire x1="84.455" y1="63.246" x2="82.804" y2="61.595" width="0.1524" layer="16"/>
 <wire x1="82.804" y1="60.0067125" x2="83.1756" y2="59.6351125" width="0.1524" layer="16"/>
@@ -7837,7 +7831,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="17.76" y1="104.176" x2="17.76" y2="103.485" width="0.1524" layer="1"/>
 <wire x1="17.76" y1="103.485" x2="17.399" y2="103.124" width="0.1524" layer="1"/>
 <via x="17.399" y="103.124" extent="1-16" drill="0.3048"/>
-<wire x1="17.399" y1="103.124" x2="17.399" y2="103.085" width="0.1524" layer="16"/>
 <contactref element="U21" pad="9"/>
 <wire x1="17.399" y1="103.124" x2="15.748" y2="101.473" width="0.1524" layer="16"/>
 <wire x1="15.748" y1="99.8847125" x2="16.1196" y2="99.5131125" width="0.1524" layer="16"/>
@@ -8252,7 +8245,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="51.288" y1="104.176" x2="51.288" y2="103.485" width="0.1524" layer="1"/>
 <wire x1="51.288" y1="103.485" x2="50.927" y2="103.124" width="0.1524" layer="1"/>
 <via x="50.927" y="103.124" extent="1-16" drill="0.3048"/>
-<wire x1="50.927" y1="103.124" x2="50.927" y2="103.085" width="0.1524" layer="16"/>
 <contactref element="U24" pad="9"/>
 <wire x1="50.927" y1="103.124" x2="49.276" y2="101.473" width="0.1524" layer="16"/>
 <wire x1="49.276" y1="99.8847125" x2="49.6476" y2="99.5131125" width="0.1524" layer="16"/>
@@ -8667,7 +8659,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="84.816" y1="104.176" x2="84.816" y2="103.485" width="0.1524" layer="1"/>
 <wire x1="84.816" y1="103.485" x2="84.455" y2="103.124" width="0.1524" layer="1"/>
 <via x="84.455" y="103.124" extent="1-16" drill="0.3048"/>
-<wire x1="84.455" y1="103.124" x2="84.455" y2="103.085" width="0.1524" layer="16"/>
 <contactref element="U27" pad="9"/>
 <wire x1="84.455" y1="103.124" x2="82.804" y2="101.473" width="0.1524" layer="16"/>
 <wire x1="82.804" y1="99.8847125" x2="83.1756" y2="99.5131125" width="0.1524" layer="16"/>
@@ -9082,7 +9073,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="17.76" y1="144.054" x2="17.76" y2="143.363" width="0.1524" layer="1"/>
 <wire x1="17.76" y1="143.363" x2="17.399" y2="143.002" width="0.1524" layer="1"/>
 <via x="17.399" y="143.002" extent="1-16" drill="0.3048"/>
-<wire x1="17.399" y1="143.002" x2="17.399" y2="142.963" width="0.1524" layer="16"/>
 <contactref element="U30" pad="9"/>
 <wire x1="17.399" y1="143.002" x2="15.748" y2="141.351" width="0.1524" layer="16"/>
 <wire x1="15.748" y1="139.7627125" x2="16.1196" y2="139.3911125" width="0.1524" layer="16"/>
@@ -9497,7 +9487,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="51.288" y1="144.054" x2="51.288" y2="143.363" width="0.1524" layer="1"/>
 <wire x1="51.288" y1="143.363" x2="50.927" y2="143.002" width="0.1524" layer="1"/>
 <via x="50.927" y="143.002" extent="1-16" drill="0.3048"/>
-<wire x1="50.927" y1="143.002" x2="50.927" y2="142.963" width="0.1524" layer="16"/>
 <contactref element="U33" pad="9"/>
 <wire x1="50.927" y1="143.002" x2="49.276" y2="141.351" width="0.1524" layer="16"/>
 <wire x1="49.276" y1="139.7627125" x2="49.6476" y2="139.3911125" width="0.1524" layer="16"/>
@@ -9912,7 +9901,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="84.816" y1="144.054" x2="84.816" y2="143.363" width="0.1524" layer="1"/>
 <wire x1="84.816" y1="143.363" x2="84.455" y2="143.002" width="0.1524" layer="1"/>
 <via x="84.455" y="143.002" extent="1-16" drill="0.3048"/>
-<wire x1="84.455" y1="143.002" x2="84.455" y2="142.963" width="0.1524" layer="16"/>
 <contactref element="U36" pad="9"/>
 <wire x1="84.455" y1="143.002" x2="82.804" y2="141.351" width="0.1524" layer="16"/>
 <wire x1="82.804" y1="139.7627125" x2="83.1756" y2="139.3911125" width="0.1524" layer="16"/>
