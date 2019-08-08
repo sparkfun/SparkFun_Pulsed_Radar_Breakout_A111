@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17812,9 +17812,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="177.8" y="170.18" size="1.778" layer="97" align="bottom-center">VIO1a,b -- C2, D1</text>
-<text x="203.2" y="170.18" size="1.778" layer="97" align="bottom-center">VIO2a,b -- C9, D10</text>
-<text x="228.6" y="170.18" size="1.778" layer="97" align="bottom-center">VIO3a,b -- J9, K9</text>
+<text x="177.8" y="170.18" size="1.778" layer="97" font="vector" align="bottom-center">VIO1a,b -- C2, D1</text>
+<text x="203.2" y="170.18" size="1.778" layer="97" font="vector" align="bottom-center">VIO2a,b -- C9, D10</text>
+<text x="228.6" y="170.18" size="1.778" layer="97" font="vector" align="bottom-center">VIO3a,b -- J9, K9</text>
 <text x="167.132" y="11.176" size="2.54" layer="94" font="vector">Jim Lindblom</text>
 <text x="149.098" y="6.858" size="2.54" layer="94" font="vector">Revised By: Elias Santistevan</text>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
@@ -17874,10 +17874,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="25.4" y="155.194" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="172.72" y="162.56" smashed="yes">
-<attribute name="VALUE" x="172.72" y="165.354" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="172.72" y="165.354" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="182.88" y="162.56" smashed="yes">
-<attribute name="VALUE" x="182.88" y="165.354" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="182.88" y="165.354" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND3" gate="1" x="172.72" y="147.32" smashed="yes">
 <attribute name="VALUE" x="172.72" y="147.066" size="1.778" layer="96" align="top-center"/>
@@ -17894,10 +17894,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="199.644" y="152.781" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="198.12" y="162.56" smashed="yes">
-<attribute name="VALUE" x="198.12" y="165.354" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="198.12" y="165.354" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY5" gate="G$1" x="208.28" y="162.56" smashed="yes">
-<attribute name="VALUE" x="208.28" y="165.354" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="208.28" y="165.354" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND5" gate="1" x="198.12" y="147.32" smashed="yes">
 <attribute name="VALUE" x="198.12" y="147.066" size="1.778" layer="96" align="top-center"/>
@@ -17914,10 +17914,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="225.044" y="152.781" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SUPPLY6" gate="G$1" x="223.52" y="162.56" smashed="yes">
-<attribute name="VALUE" x="223.52" y="165.354" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="223.52" y="165.354" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="233.68" y="162.56" smashed="yes">
-<attribute name="VALUE" x="233.68" y="165.354" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="233.68" y="165.354" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND7" gate="1" x="223.52" y="147.32" smashed="yes">
 <attribute name="VALUE" x="223.52" y="147.066" size="1.778" layer="96" align="top-center"/>
