@@ -3333,7 +3333,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.727" y1="2.877" x2="-2.727" y2="2.877" width="0.2032" layer="21"/>
 <wire x1="2.727" y1="-2.877" x2="2.727" y2="2.877" width="0.2032" layer="21"/>
 <wire x1="-2.727" y1="-2.877" x2="2.727" y2="-2.877" width="0.2032" layer="21"/>
-<circle x="-2.981" y="3.131" radius="0.1778" width="0" layer="21"/>
 <smd name="C2" x="-1.75" y="1.25" dx="0.3" dy="0.3" layer="1" roundness="100"/>
 <smd name="K3" x="-1.25" y="-2.25" dx="0.3" dy="0.3" layer="1" roundness="100"/>
 <smd name="K4" x="-0.75" y="-2.25" dx="0.3" dy="0.3" layer="1" roundness="100"/>
@@ -3371,6 +3370,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-5.6347125" y1="-5.6347125" x2="5.6347125" y2="-5.6347125" width="0.1524" layer="49"/>
 <wire x1="5.6347125" y1="-5.6347125" x2="5.6347125" y2="5.6347125" width="0.1524" layer="49"/>
 <text x="0" y="5.7" size="0.6096" layer="49" align="bottom-center">-2.2dB</text>
+<circle x="-3.175" y="3.302" radius="0.254" width="0" layer="21"/>
 </package>
 </packages>
 </library>
