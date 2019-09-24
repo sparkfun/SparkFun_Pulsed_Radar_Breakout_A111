@@ -36,7 +36,7 @@ License Information
 
 This product is _**open source**_! 
 
-If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com.
+If you have any questions or concerns on licensing, please contact technical support on our [SparkFun forums](https://forum.sparkfun.com/viewforum.php?f=152).
 
 Please use, reuse, and modify these files as you see fit. Please maintain attribution to SparkFun Electronics and release any derivative under the same license.
 
