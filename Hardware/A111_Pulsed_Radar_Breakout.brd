@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -161,9 +161,12 @@
 <text x="1.524" y="13.462" size="1.27" layer="16" font="vector" ratio="15" rot="SMR90" align="bottom-center">v10</text>
 <text x="20.828" y="-13.208" size="1.778" layer="51" font="vector" ratio="12">Jim Lindblom</text>
 <text x="5.588" y="-15.748" size="1.778" layer="51" font="vector" ratio="12">Revised By: Elias Santistevan</text>
-<dimension x1="33.02" y1="40.64" x2="0" y2="40.64" x3="16.51" y3="44.704" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="33.02" y1="1.27" x2="33.02" y2="40.64" x3="39.116" y3="20.955" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<text x="8.636" y="49.784" size="1.778" layer="47" font="vector" ratio="15">Units in Inches</text>
+<dimension x1="33.02" y1="0" x2="33.02" y2="39.37" x3="39.116" y3="19.685" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<text x="8.636" y="54.102" size="1.778" layer="47" font="vector" ratio="15">Units in Inches</text>
+<dimension x1="2.54" y1="36.83" x2="2.54" y2="39.37" x3="-5.588" y3="38.1" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="39.37" x2="33.02" y2="39.37" x3="16.51" y3="42.164" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="30.48" y1="36.83" x2="0" y2="36.83" x3="15.24" y3="46.228" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="2.54" y1="36.83" x2="0" y2="36.83" x3="1.27" y3="49.53" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
