@@ -9,7 +9,7 @@ Does your project require high-precision, cutting-edge distance measurement? Or 
 
 The A111 is a single-chip solution for pulsed coherent radar (PCR). It comes complete with integrated antennae and an SPI interface capable of clock speeds of up to 50MHz. The A111’s primary use case is distance-sensing, but it also supports applications in gesture-, motion-, material-, and speed-detection. It can see objects at distances of up to two meters.
 
-Our breakout board for the A111 includes a 1.8V regulator, voltage-level translation between 1.8V and either 3.3V or 5V, and, of course, it breaks out all pins of the pulsed radar sensor to both 0.1-inch and Raspberry Pi-friendly headers.
+Our breakout board for the A111 includes a 1.8V regulator, voltage-level translation between 1.8V and 5V, and, of course, it breaks out all pins of the pulsed radar sensor to both 0.1-inch and Raspberry Pi-friendly headers.
 
 The breakout board is primarily **designed to interface directly with a Raspberry Pi** – Acconeer’s SDK currently only supports ARMv7’s (e.g. a Pi) and ARM Cortex-M4’s. Check out our <a href="https://learn.sparkfun.com/tutorials/getting-started-with-the-a111-pulsed-radar-sensor">Getting Started with the A111 Pulsed Radar Sensor tutorial</a>, which explains how to use the sensor with a Raspberry Pi.
 
