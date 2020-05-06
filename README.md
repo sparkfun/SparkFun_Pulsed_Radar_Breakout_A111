@@ -21,7 +21,7 @@ Repository Contents
 
 * **/Documents** - Datasheets
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Software** - Example code and board-definition files to be added to the Acconeer ARMv7 SDK
+* **/Production** - Production panel files (.brd)
 
 Documentation
 -------------------
