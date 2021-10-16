@@ -1,9 +1,9 @@
 SparkFun Pulsed Radar Breakout - A111
 ========================================
 
-[![SparkFun A111 Pulsed Radar](https://cdn.sparkfun.com//assets/parts/1/4/1/7/4/15577-SparkFun_Pulsed_Radar_Breakout_-_A111-01.jpg)](https://www.sparkfun.com/products/15577)
+[![SparkFun A111 Pulsed Radar](https://cdn.sparkfun.com//assets/parts/1/5/7/4/2/16826-SparkFun_Pulsed_Radar_Breakout_-_A111-02.jpg)](https://www.sparkfun.com/products/16826)
 
-[*SparkFun A111 Pulsed Radar (SEN-15577)*](https://www.sparkfun.com/products/15577)
+[*SparkFun A111 Pulsed Radar (SEN-16826)*](https://www.sparkfun.com/products/16826)
 
 Does your project require high-precision, cutting-edge distance measurement? Or maybe speed-, motion-, or gesture-sensing? We’re not talking about simple ultrasonic, or even infrared, sensors here, but 60GHz radar! Well say hello to our tiny, pulsed-radar friend: the Acconeer A111.
 
@@ -13,8 +13,8 @@ Our breakout board for the A111 includes a 1.8V regulator, voltage-level transla
 
 The breakout board is primarily **designed to interface directly with a Raspberry Pi** – Acconeer’s SDK currently only supports ARMv7’s (e.g. a Pi) and ARM Cortex-M4’s. Check out our <a href="https://learn.sparkfun.com/tutorials/getting-started-with-the-a111-pulsed-radar-sensor">Getting Started with the A111 Pulsed Radar Sensor tutorial</a>, which explains how to use the sensor with a Raspberry Pi.
 
-SparkFun labored with love to create this code. Feel like supporting open source hardware? 
-Buy a [breakout board](https://www.sparkfun.com/products/15577) from SparkFun!
+SparkFun labored with love to create this board. Feel like supporting open source hardware? 
+Buy a [breakout board](https://www.sparkfun.com/products/16826) from SparkFun!
 
 Repository Contents
 -------------------
@@ -28,8 +28,18 @@ Documentation
 * Acconeer
   * **[Developer](https://developer.acconeer.com/)** - SW Download, datasheet, user guide, FAQ
 * **[Acconeer Example Code](https://github.com/acconeer)**
-* **[Example Code](https://github.com/sparkfun/SparkFun_Pulsed_Radar_A111_Example_Code)** - SparkFun example code for the Pulsed Radar Breakout that is used in the getting started guide.
+* **[Example Code](https://github.com/sparkfun/SparkFun_Pulsed_Radar_A111_Example_Code)** - Archived repo that used to hold the SparkFun example code for the Pulsed Radar Breakout. Make sure to head over to Acconeer's website to download the latest! 
 * **[Getting Started Guide](https://learn.sparkfun.com/tutorials/getting-started-with-the-a111-pulsed-radar-sensor)** - Basic hookup guide.
+
+Product Versions
+----------------
+* [SEN-16826](https://www.sparkfun.com/products/16826) - v1.1
+* [SEN-15577](https://www.sparkfun.com/products/15577) - v1.0
+
+Version History
+---------------
+- v1.1
+- [v1.0](https://github.com/sparkfun/SparkFun_Pulsed_Radar_Breakout_A111/releases/tag/v1.0) - initial release
 
 License Information
 -------------------
